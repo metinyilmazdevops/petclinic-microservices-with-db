@@ -684,7 +684,6 @@ git checkout dev
 git branch feature/msp-11
 git checkout feature/msp-11
 ```
-
 * Create following unit tests for `Pet.java` under `customer-service` microservice using the following `PetTest` class and save it as `PetTest.java` under `./spring-petclinic-customers-service/src/test/java/org/springframework/samples/petclinic/customers/model/` folder.
 
 ``` java
@@ -728,13 +727,11 @@ public class PetTest {
     }
 }
 ```
-
 * Implement unit tests with maven wrapper for only `customer-service` microservice locally on `Dev Server`. Execute the following command under the `spring-petclinic-customers-service folder`.
 
 ``` bash
 ../mvnw clean test
 ```
-
 * Commit the change, then push the changes to the remote repo.
 
 ``` bash
@@ -767,13 +764,11 @@ git push --set-upstream origin feature/msp-11
     </executions>
 </plugin>
 ```
-
 * Create code coverage report for only `customer-service` microservice locally on `Dev Server`. Execute the following command under the `spring-petclinic-customers-service folder`.
 
 ``` bash
 ../mvnw test
 ```
-
 * Commit the change, then push the changes to the remote repo.
 
 ``` bash
@@ -784,11 +779,7 @@ git checkout dev
 git merge feature/msp-11
 git push origin dev
 ```
-
-
-
 * Deploy code coverage report (located under relative path `target/site/jacoco` of the microservice) on Simple HTTP Server for only `customer-service` microservice on `Dev Server`.
-
 ``` bash
 python -m SimpleHTTPServer # for python 2.7
 python3 -m http.server # for python 3+
@@ -796,7 +787,6 @@ python3 -m http.server # for python 3+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 ## MSP 12 - Prepare Continuous Integration (CI) Pipeline
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-
 * Create `feature/msp-12` branch from `dev`.
 
 ``` bash
