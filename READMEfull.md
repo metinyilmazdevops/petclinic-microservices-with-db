@@ -1036,6 +1036,14 @@ git branch feature/msp-14
 git checkout feature/msp-14
 ```
 
+
+
+
+
+
+
+
+
 * Create a ``Jenkins Job`` to create Docker Registry for `dev` on AWS ECR manually.
 
 ```yml
