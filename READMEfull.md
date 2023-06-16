@@ -1456,6 +1456,10 @@ export ANSIBLE_HOST_KEY_CHECKING=False
 ansible all -m ping
 ```
 
+
+
+
+
 - Prepare dynamic inventory file with name of `dev_stack_dynamic_inventory_aws_ec2.yaml` for Ansible under `ansible/inventory` folder using ec2 instances private IP addresses.
 
 ```yaml
