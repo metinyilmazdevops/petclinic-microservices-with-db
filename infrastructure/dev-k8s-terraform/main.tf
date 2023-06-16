@@ -165,8 +165,7 @@ resource "aws_instance" "kube-master" {
         Project = "tera-kube-ans"
         Role = "master"
         Id = "1"
-        environment = "dev
-        "
+        environment = "dev"
     }
 }
 
